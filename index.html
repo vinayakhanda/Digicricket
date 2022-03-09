@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Made by Vinayak Handa (github.com/vinayakhanda)-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiCricket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>DigiCricket</h1>
+    </center>
+    <div class="player">
+
+        <center>
+            <h1 id="score"> Your Score: </h1>
+            <img src="player.jpg" alt="player image " height="200" width="200"> <br> <br>
+            <button onclick="addToScore(0)" id="btn1">0</button>
+            <button onclick="addToScore(1)" id="btn2">1</button>
+            <button onclick="addToScore(2)" id="btn3">2</button> <br> <br>
+            <button onclick="addToScore(3)" id="btn4">3</button>
+            <button onclick="addToScore(4)" id="btn5">4</button>
+            <button onclick="addToScore(5)" id="btn6">5</button>
+        </center>
+    </div>
+
+
+    <div class="cntSpc">
+        <center>
+            <h1 id="userChoice">You : </h1>
+            <h1 id="compChoice"> Computer : </h1>
+            <h1 id="status"></h1>
+            <h1 id="status2"></h1>
+            <h1 id="status3"></h1>
+        </center>
+    </div>
+
+
+    <div class="comp">
+        <center>
+            <h1 id="compScore">Computers Score : </h1>
+            <img src="comp.jpg" alt="computer" height="200" width="200">
+        </center>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
